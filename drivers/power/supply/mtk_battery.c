@@ -295,7 +295,7 @@ int bat_create_proc_fs(struct platform_device *pdev)
 
 //+Bug615305,xujizhou.wt,ADD,20210108,battery misc event
 #ifdef CONFIG_CHARGER_BQ2415X
-int Get_get_charger()
+int Get_get_charger(void)
 {
 	struct mtk_charger *info;
 	struct power_supply *psy;
